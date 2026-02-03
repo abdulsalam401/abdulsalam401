@@ -1,24 +1,60 @@
-# 💫 About Me:
-Abdul Salam<br><br>Cybersecurity student focused on ethical hacking, penetration testing, and secure system development.<br>Currently pursuing a BS in Computer Science and building strong hands-on skills through projects, labs, and research-oriented work.<br><br>About Me<br><br>Cybersecurity and Ethical Hacking enthusiast<br><br>Strong interest in penetration testing, bug bounty, and secure application development<br><br>Experience with Python, security tools, and real-world style labs<br><br>Actively working on advanced security and encryption-based projects<br><br>Skills & Interests<br><br>Ethical Hacking & Penetration Testing<br><br>Cybersecurity Fundamentals & Applied Security<br><br>Python Development<br><br>Web Security<br><br>Cryptography & Secure Communication<br><br>Bug Bounty & Vulnerability Research<br><br>Projects<br><br>I work on projects related to:<br><br>Cybersecurity tools and experiments<br><br>Python-based systems and automation<br><br>Secure communication and encryption<br><br>Academic and personal software projects<br><br>You’ll find both learning-based and production-style projects in my repositories.<br><br>Current Focus<br><br>Deepening penetration testing skills (HTB, labs, real-world methodology)<br><br>Building strong cybersecurity projects<br><br>Preparing for research-level and professional opportunities<br><br>Contact & Profiles<br><br>LinkedIn: https://www.linkedin.com/in/abdul-salam-39467a274/<br><br>Portfolio: https://abdul-salam-portfolio.vercel.app/
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=200&section=header&text=Abdul%20Salam&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35" alt="header" />
+</div>
 
+<h1 align="center">Hi 👋, I'm Abdul Salam</h1>
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/share/184xMT836K/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/abdul.salam23) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/abdul-salam-39467a274) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abdulsalam.cyber1@gmail.com) 
+<p align="center">
+  <strong>Cybersecurity Student</strong> | Ethical Hacker | Penetration Tester
+</p>
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=abdulsalam401&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=abdulsalam401&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=abdulsalam401&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+  Passionate about breaking & building secure systems. BS Computer Science • Hands-on labs • Bug hunting • Secure dev
+</p>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<div align="center">
+  <a href="https://www.linkedin.com/in/abdul-salam-39467a274/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:abdulsalam.cyber1@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://abdul-salam-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+</div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=abdulsalam401&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<br/>
 
----
-[![](https://visitcount.itsvg.in/api?id=abdulsalam401&icon=0&color=0)](https://visitcount.itsvg.in)
+## 🛡️ Focus Areas
+- Ethical Hacking & Penetration Testing  
+- Web & Network Security  
+- Cryptography & Secure Protocols  
+- Bug Bounty & Vulnerability Research  
+- Python Security Tools & Automation  
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## ⚡ Tech Stack
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+</div>
+
+## 📈 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&theme=dracula&hide_border=true&show_icons=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulsalam401&theme=dracula&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulsalam401&theme=dracula&hide_border=true&layout=compact"/>
+</div>
+
+## 🔭 Currently Exploring
+- Advanced HTB / TryHackMe labs  
+- Custom security tooling in Python  
+- Preparing for OSCP-style challenges  
+
+Let's connect and hack the planet securely! 🚀
