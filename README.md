@@ -97,7 +97,7 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&show_icons=true&theme=tokyonight" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulsalam401&theme=tokyonight" height="165" alt="GitHub streak stats"/>
+  <img src="https://streak-stats.demolab.com?user=abdulsalam401&theme=tokyonight" height="165" alt="GitHub streak stats"/>
 </p>
 
 <p align="center">
