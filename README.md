@@ -95,11 +95,13 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 ## 📊 GitHub Stats
 
-<h2 align="center">📈 GitHub Stats</h2>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&theme=radical&show_icons=true" />
-  <img src="https://streak-stats.demolab.com/?user=abdulsalam401&theme=radical" />
-</div>
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400"
+    alt="GitHub Stats"
+    height="170"
+  />
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulsalam401&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph"/>
