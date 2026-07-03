@@ -1,4 +1,4 @@
-```markdown name=README.md
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abdul%20Salam&fontSize=52&fontColor=ffffff&animation=twinkling&color=0:00F5FF,25:007CF0,50:7928CA,75:FF0080,100:FFD700" alt="Abdul Salam header banner"/>
 </p>
@@ -140,4 +140,3 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F5FF,25:007CF0,50:7928CA,75:FF0080,100:FFD700" alt="Footer banner"/>
 </p>
-```
