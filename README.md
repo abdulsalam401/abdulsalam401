@@ -99,3 +99,191 @@
 <p align="center">
   🌈 <b>Securing the Digital World · One Vulnerability at a Time</b> 🌈
 </p>
+<!-- ========================================================= -->
+<!--                    Abdul Salam README                      -->
+<!--                    PART 2 OF 2                            -->
+<!-- ========================================================= -->
+
+# 📊 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulsalam401&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+# 🐍 Contribution Snake
+
+> **⚠️ Note:** This animation requires a GitHub Action to generate automatically. Once configured, it updates every day.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abdulsalam401/abdulsalam401/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+</p>
+
+---
+
+# 📚 Currently Learning
+
+<div align="center">
+
+| 🔬 Research | 🛡 Security | 💻 Development |
+|-------------|------------|----------------|
+| Post-Quantum Cryptography | Red Teaming | Python |
+| Quantum Cryptography | Blue Teaming | Django |
+| Secure Communication | Malware Analysis | Docker |
+| Threat Intelligence | Digital Forensics | Linux |
+| AI for Cybersecurity | Reverse Engineering | GitHub Actions |
+
+</div>
+
+---
+
+# 🎯 2026 Goals
+
+- 🚀 Complete **100 Cybersecurity Projects Challenge**
+- 🔐 Publish more open-source security tools
+- 📚 Advance research in Post-Quantum Cryptography
+- 🌍 Contribute to open-source cybersecurity projects
+- 🏆 Earn advanced cybersecurity certifications
+- ✍️ Share educational cybersecurity content
+- 🤝 Collaborate with the security community
+
+---
+
+# 🌟 Featured Repositories
+
+<div align="center">
+
+| Repository | Description |
+|------------|-------------|
+| 🛡️ **Axiom** | Android Security Assessment Framework |
+| 🔐 **Quantum-Resilient Secure Communication** | RSA + Kyber Hybrid Encryption |
+| 📡 **Network Intrusion Detection System** | ML-powered NIDS using Python & Scapy |
+| 🤖 **Athena Shield** | Intelligent Bot Detection System |
+| 🔒 **Cryptic** | Secure AES Communication Platform |
+| 🔑 **Secure Password Manager** | Chrome Extension with AES Encryption |
+
+</div>
+
+> ⭐ If you find my projects useful, consider giving them a star!
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/abdul-salam-39467a274">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/abdulsalam401">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://salamcs.app">
+<img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="mailto:abdulsalam.cyber1@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+# 🛠 Platforms I Use
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red"/>
+
+<img src="https://img.shields.io/badge/Hack_The_Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/GitHub-Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+
+</p>
+
+---
+
+# 💡 Favorite Quote
+
+<div align="center">
+
+> **"Security isn't about breaking systems—it's about understanding them well enough to protect them."**
+
+</div>
+
+---
+
+# 📌 Fun Facts
+
+```text
+💻 I enjoy building practical cybersecurity tools.
+
+🔐 Cryptography is one of my favorite fields.
+
+🐍 Python is my primary programming language.
+
+🐧 Linux is my daily operating system.
+
+🚀 I learn best by building real-world projects.
+
+🌍 I enjoy contributing to the cybersecurity community.
+```
+
+---
+
+# 📈 Profile Summary
+
+<div align="center">
+
+| Experience | Status |
+|------------|--------|
+| 🎓 BS Computer Science | In Progress |
+| 🛡 Cybersecurity | Active Learning |
+| 💻 Python Development | Advanced |
+| 🔐 Cryptography | Research Focus |
+| 🚀 Open Source | Active Contributor |
+| 🌍 Community Learning | Continuous |
+
+</div>
+
+---
+
+# ❤️ Support My Work
+
+If my projects or research help you learn something new,
+
+⭐ Star my repositories
+
+🍴 Fork projects
+
+🛠 Suggest improvements
+
+🤝 Connect on LinkedIn
+
+💬 Share feedback
+
+Every contribution and connection is appreciated!
+
+---
+
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00F5FF,20:007CF0,40:7928CA,60:FF0080,80:FF4D4D,100:FFD700"/>
+
+</p>
+
+<h3 align="center">
+
+Thanks for visiting my profile!
+
+⭐ Happy Coding • Happy Hacking (Ethically) • Keep Learning ⭐
+
+</h3>
