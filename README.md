@@ -62,14 +62,14 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 | Project | Description | Stack |
 |---|---|---|
-| [🛡️ Axiom](https://github.com/abdulsalam401) | Advanced Android Security Assessment Framework | Security Testing |
-| [📡 Network Intrusion Detection System](https://github.com/abdulsalam401) | ML-powered intrusion detection for suspicious traffic | Python, Scapy, ML |
-| [🔐 Quantum-Resilient Secure Communication](https://github.com/abdulsalam401) | Hybrid secure communication using RSA + Kyber concepts | Django, Cryptography |
-| [🤖 Athena Shield](https://github.com/abdulsalam401) | Intelligent bot detection with ML + honeypot ideas | Python, ML, Security |
-| [🔒 Cryptic](https://github.com/abdulsalam401) | AES-based secure communication platform | Python, Crypto |
-| [🔑 Secure Password Manager](https://github.com/abdulsalam401) | Encryption-based password manager concept | AES, Browser Security |
+| [🛡️ Axiom](https://github.com/abdulsalam401/Axiom) | Advanced Android Security Assessment Framework | Security Testing |
+| [📡 Network Intrusion Detection System](https://github.com/abdulsalam401/NID-System) | ML-powered intrusion detection for suspicious traffic | Python, Scapy, ML |
+| [🔐 Quantum-Resilient Secure Communication](https://github.com/abdulsalam401/Quantum-Gem-FYP) | Hybrid secure communication using RSA + Kyber concepts | Django, Cryptography |
+| [🤖 Athena Shield](https://github.com/abdulsalam401/Athena-Shield) | Intelligent bot detection with ML + honeypot ideas | Python, ML, Security |
+| [🔒 Cryptic](https://github.com/abdulsalam401/Cryptic-Secure-Communication) | AES-based secure communication platform | Python, Crypto |
+| [🔑 Secure Password Manager](https://github.com/abdulsalam401/Password-Manager-Chrome-Extension) | Encryption-based password manager concept | AES, Browser Security |
 
-> Replace each link with the exact repository URL for that project.
+
 
 ---
 
