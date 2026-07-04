@@ -114,12 +114,6 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 </p>
 
 ---
-
-## 🧠 Certifications (Add Your Links)
-
-- Cisco Cybersecurity Certification — *(add link)*
-- Udemy Cybersecurity Certification — *(add link)*
-
 ---
 
 ## 💬 Favorite Quote
