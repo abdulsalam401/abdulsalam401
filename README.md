@@ -91,14 +91,14 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 - Earn advanced cybersecurity certifications
 - Share educational security content
 
----
+  
 
 ## 📊 GitHub Stats
 
 <h2 align="center">📈 GitHub Stats</h2>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&theme=radical&show_icons=true" />
-  <img src="https://streak-stats.demolab.com/?user=abdulsalam401&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&theme=radical&show_icons=true&cache_seconds=1800" />
+  <img src="https://streak-stats.demolab.com?user=abdulsalam401&theme=radical&cache_seconds=1800" />
 </div>
 
 <p align="center">
