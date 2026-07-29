@@ -99,6 +99,10 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=radical" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulsalam401&layout=compact&theme=radical" />
 </div>
+<div align="center">
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=abdulsalam401&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=radical" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=abdulsalam401&layout=compact&theme=radical" />
+</div>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulsalam401&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph"/>
