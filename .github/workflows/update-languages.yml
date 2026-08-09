@@ -24,7 +24,7 @@ jobs:
 
       - name: Run language aggregation script
         env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.PAT_1 }}
         run: |
           node .github/scripts/update_languages.js
 
