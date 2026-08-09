@@ -1,9 +1,10 @@
+// name=.github/scripts/update_languages.js
 const fs = require('fs');
 const path = require('path');
 
-const TOKEN = process.env.PERSONAL_TOKEN;
+const TOKEN = process.env.PERSONAL_TOKEN || process.env.PAT_1;
 if (!TOKEN) {
-  console.error('❌ PERSONAL_TOKEN is not set. Add it to repository secrets as PERSONAL_TOKEN.');
+  console.error('❌ PERSONAL_TOKEN or PAT_1 is not set. Add it to repository secrets as PERSONAL_TOKEN or PAT_1.');
   process.exit(1);
 }
 
@@ -56,17 +57,67 @@ async function aggregateLanguages(repos) {
   return totals;
 }
 
-function buildMarkdownTable(totals) {
-  const entries = Array.from(totals.entries()).sort((a,b) => b[1] - a[1]);
-  const totalBytes = entries.reduce((s,[,b]) => s+b, 0);
-  if (entries.length === 0) return 'No language data found.';
+function colorForLanguage(lang, idx) {
+  const palette = [
+    '#2b7cff','#ff6b6b','#6bffb3','#ffd166','#9d7cff','#00c2a8','#ff8fb1','#ffb86b',
+    '#8ae1ff','#cba6ff'
+  ];
+  return palette[idx % palette.length];
+}
 
+function buildSVG(totals, topN = 8) {
+  const entries = Array.from(totals.entries()).sort((a,b) => b[1] - a[1]).slice(0, topN);
+  const totalBytes = entries.reduce((s,[,b]) => s+b, 0) || 1;
+  const width = 760;
+  const rowHeight = 34;
+  const padding = 14;
+  const height = padding * 2 + entries.length * rowHeight;
+
+  let svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages chart">\n`;
+  svg += `<style>
+    .label { font: 14px Arial, Helvetica, sans-serif; fill: #e6eef8; }
+    .percent { font: 12px Arial, Helvetica, sans-serif; fill: #cfe6ff; }
+    .bar-bg { fill: rgba(255,255,255,0.06); }
+    .lang-name { font: 13px Arial, Helvetica, sans-serif; fill: #ffffff; }
+    .bar-text { font: 12px Arial, Helvetica, sans-serif; fill: #000000; font-weight:600; }
+  </style>\n`;
+
+  // background
+  svg += `<rect width="100%" height="100%" fill="#0b1220" rx="8" />\n`;
+
+  entries.forEach(( [lang, bytes], i) => {
+    const y = padding + i * rowHeight;
+    const pct = bytes / totalBytes;
+    const barMaxWidth = width - 260; // leave space for labels
+    const barWidth = Math.max(2, Math.round(pct * barMaxWidth));
+    const color = colorForLanguage(lang, i);
+
+    // lang text
+    svg += `<text x="18" y="${y + 20}" class="lang-name">${lang}</text>\n`;
+    // percent text (right side)
+    const pctText = (pct * 100).toFixed(2) + '%';
+    svg += `<text x="${width - 18}" y="${y + 20}" text-anchor="end" class="percent">${pctText}</text>\n`;
+
+    // bar background
+    svg += `<rect x="180" y="${y + 6}" width="${barMaxWidth}" height="18" rx="9" class="bar-bg" />\n`;
+    // bar foreground
+    svg += `<rect x="180" y="${y + 6}" width="${barWidth}" height="18" rx="9" fill="${color}" />\n`;
+  });
+
+  svg += `</svg>`;
+  return svg;
+}
+
+function buildMarkdownSection(totals) {
+  const entries = Array.from(totals.entries()).sort((a,b) => b[1] - a[1]);
+  const totalBytes = entries.reduce((s,[,b]) => s+b, 0) || 1;
   let md = '\n## Aggregated language usage (including private repos)\n\n';
-  md += '| Language | Bytes | Percent |\n';
-  md += '|---|---:|---:|\n';
-  for (const [lang, bytes] of entries) {
-    const pct = totalBytes ? (bytes / totalBytes * 100) : 0;
-    md += `| ${lang} | ${bytes.toLocaleString()} | ${pct.toFixed(2)}% |\n`;
+  md += `![Language chart](./assets/lang_chart.svg)\n\n`;
+  md += '| Language | Percent |\n';
+  md += '|---|---:|\n';
+  for (const [lang, bytes] of entries.slice(0, 10)) {
+    const pct = (bytes / totalBytes * 100).toFixed(2);
+    md += `| ${lang} | ${pct}% |\n`;
   }
   md += `\n_Total bytes counted: ${totalBytes.toLocaleString()}_\n`;
   return md;
@@ -103,12 +154,23 @@ function replaceSectionInReadme(readmePath, newSection) {
     console.log(`Found ${repos.length} repositories (owner).`);
 
     const totals = await aggregateLanguages(repos);
-    const mdTable = buildMarkdownTable(totals);
 
+    // Ensure assets folder exists
+    const assetsDir = path.join(process.cwd(), 'assets');
+    if (!fs.existsSync(assetsDir)) fs.mkdirSync(assetsDir, { recursive: true });
+
+    // Generate SVG and write to assets/lang_chart.svg
+    const svg = buildSVG(totals, 8);
+    const svgPath = path.join(assetsDir, 'lang_chart.svg');
+    fs.writeFileSync(svgPath, svg, 'utf8');
+    console.log(`Wrote SVG to ${svgPath}`);
+
+    // Build markdown block and insert into README
+    const mdSection = buildMarkdownSection(totals);
     const readmePath = path.join(process.cwd(), 'README.md');
-    replaceSectionInReadme(readmePath, mdTable);
+    replaceSectionInReadme(readmePath, mdSection);
 
-    console.log('✅ README updated. Commit will be created by the workflow.');
+    console.log('✅ README and assets updated. Commit will be created by the workflow.');
   } catch (err) {
     console.error('Fatal error:', err);
     process.exit(1);
