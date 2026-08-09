@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="GitHub status card">
+  <style>
+    .bg { fill: #0b0f15; }
+    .panel { fill: #0f1720; stroke: rgba(255,255,255,0.06); stroke-width:1; rx:8; }
+    .title { font: 600 16px/1 "Segoe UI", Roboto, "Helvetica Neue", Arial; fill: #ff3b8f; }
+    .label { font: 500 13px/1 "Segoe UI", Roboto, Arial; fill: #bfe6ff; }
+    .value { font: 700 14px/1 "Segoe UI", Roboto, Arial; fill: #ffffff; }
+    .muted { font: 500 12px/1 "Segoe UI", Roboto, Arial; fill: #9fbddc; }
+    .small { font: 400 11px/1 "Segoe UI", Roboto, Arial; fill: #9fbddc; }
+    .legend-text { font: 500 12px/1 "Segoe UI", Roboto, Arial; fill: #cfe6ff; }
+  </style>
+
+  <!-- background -->
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- left panel -->
+  <g transform="translate(16,16)">
+    <rect class="panel" x="0" y="0" width="420" height="208" rx="8" />
+    <text x="18" y="28" class="title">Abdul Salam's GitHub Stats</text>
+
+    <!-- stats list -->
+    <g transform="translate(18,48)">
+      <g transform="translate(0,0)">
+        <text x="0" y="0" class="muted">⭐</text>
+        <text x="26" y="0" class="label">Total Stars:</text>
+        <text x="210" y="0" class="value">12</text>
+      </g>
+      <g transform="translate(0,28)">
+        <text x="0" y="0" class="muted">🕘</text>
+        <text x="26" y="0" class="label">Total Commits:</text>
+        <text x="210" y="0" class="value">591</text>
+      </g>
+      <g transform="translate(0,56)">
+        <text x="0" y="0" class="muted">🔀</text>
+        <text x="26" y="0" class="label">Total PRs:</text>
+        <text x="210" y="0" class="value">0</text>
+      </g>
+      <g transform="translate(0,84)">
+        <text x="0" y="0" class="muted">❗</text>
+        <text x="26" y="0" class="label">Total Issues:</text>
+        <text x="210" y="0" class="value">0</text>
+      </g>
+      <g transform="translate(0,112)">
+        <text x="0" y="0" class="muted">👥</text>
+        <text x="26" y="0" class="label">Contributed to:</text>
+        <text x="210" y="0" class="value">0</text>
+      </g>
+    </g>
+
+    <!-- donut grade -->
+    <g transform="translate(290,40)">
+      <!-- background ring -->
+      <circle cx="64" cy="64" r="48" fill="#0f1720" stroke="#22303f" stroke-width="8" />
+      <!-- progress arc (A+ color) -->
+      <path d="M64 16 A48 48 0 1 1 109.5 29.5" fill="none" stroke="#ff49a7" stroke-width="10" stroke-linecap="round" />
+      <!-- inner circle -->
+      <circle cx="64" cy="64" r="36" fill="#0b1220" />
+      <text x="64" y="72" text-anchor="middle" class="value" font-size="20">A+</text>
+    </g>
+  </g>
+
+  <!-- right panel -->
+  <g transform="translate(452,16)">
+    <rect class="panel" x="0" y="0" width="428" height="208" rx="8" />
+    <text x="18" y="28" class="title">Most Used Languages</text>
+
+    <!-- stacked bar -->
+    <!-- total bar area -->
+    <g transform="translate(18,54)">
+      <!-- background bar -->
+      <rect x="0" y="0" width="392" height="18" rx="9" fill="rgba(255,255,255,0.04)" />
+      <!-- segments (widths correspond to percentages) -->
+      <!-- barWidth total: 392 -->
+      <!-- Python 60.45% -->
+      <rect x="0" y="0" width="237.284" height="18" rx="9" fill="#2b7cff" />
+      <!-- HTML 28.35% -->
+      <rect x="237.284" y="0" width="111.172" height="18" rx="0" fill="#ff6b6b" />
+      <!-- JavaScript 4.78% -->
+      <rect x="348.456" y="0" width="18.6976" height="18" rx="0" fill="#ffd166" />
+      <!-- CSS 4.12% -->
+      <rect x="367.1536" y="0" width="16.1504" height="18" rx="0" fill="#9d7cff" />
+      <!-- TypeScript 2.29% -->
+      <rect x="383.304" y="0" width="8.6968" height="18" rx="0" fill="#00c2a8" />
+    </g>
+
+    <!-- legend items -->
+    <g transform="translate(18,86)">
+      <g transform="translate(0,0)">
+        <circle cx="8" cy="8" r="6" fill="#2b7cff" />
+        <text x="22" y="12" class="legend-text">Python 60.45%</text>
+      </g>
+      <g transform="translate(0,26)">
+        <circle cx="8" cy="8" r="6" fill="#ff6b6b" />
+        <text x="22" y="12" class="legend-text">HTML 28.35%</text>
+      </g>
+      <g transform="translate(0,52)">
+        <circle cx="8" cy="8" r="6" fill="#ffd166" />
+        <text x="22" y="12" class="legend-text">JavaScript 4.78%</text>
+      </g>
+      <g transform="translate(180,0)">
+        <circle cx="8" cy="8" r="6" fill="#9d7cff" />
+        <text x="22" y="12" class="legend-text">CSS 4.12%</text>
+      </g>
+      <g transform="translate(180,26)">
+        <circle cx="8" cy="8" r="6" fill="#00c2a8" />
+        <text x="22" y="12" class="legend-text">TypeScript 2.29%</text>
+      </g>
+    </g>
+  </g>
+</svg>
