@@ -97,6 +97,7 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
   <img height="170" src="https://streak-stats.demolab.com?user=abdulsalam401&theme=radical&cache_seconds=1800" />
 </div>
 
+<p align="center"> <img src="./assets/status_card.svg" alt="GitHub status card" /> </p>
 
 
 
