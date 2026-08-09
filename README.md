@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abdul%20Salam&fontSize=52&fontColor=ffffff&animation=twinkling&color=0:00F5FF,25:007CF0,50:7928CA,75:FF0080,100:FFD700" alt="Abdul Salam header banner"/>
 </p>
@@ -69,8 +68,6 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 | [🔒 Cryptic](https://github.com/abdulsalam401/Cryptic-Secure-Communication) | AES-based secure communication platform | Python, Crypto |
 | [🔑 Secure Password Manager](https://github.com/abdulsalam401/Password-Manager-Chrome-Extension) | Encryption-based password manager concept | AES, Browser Security |
 
-
-
 ---
 
 ## 📚 Currently Learning
@@ -91,7 +88,7 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 - Earn advanced cybersecurity certifications
 - Share educational security content
 
-  
+---
 
 ## 📊 GitHub Stats
 
@@ -113,6 +110,10 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=abdulsalam401&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph"/>
 </p>
 
+<!-- Inserted by automation: aggregated language summary will be placed between these markers -->
+<!--LANGUAGE_SUMMARY_START-->
+<!--LANGUAGE_SUMMARY_END-->
+
 ---
 
 ## 🐍 Contribution Snake
@@ -121,7 +122,6 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
   <img src="https://raw.githubusercontent.com/abdulsalam401/abdulsalam401/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation"/>
 </p>
 
----
 ---
 
 ## 💬 Favorite Quote
