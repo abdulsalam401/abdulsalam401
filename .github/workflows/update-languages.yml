@@ -1,0 +1,37 @@
+name: Update profile language summary
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # daily at 02:00 UTC (adjust if you want)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-languages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Run language aggregation script
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          node .github/scripts/update_languages.js
+
+      - name: Commit and push README changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update aggregated language summary" || echo "No changes to commit"
+          git push
