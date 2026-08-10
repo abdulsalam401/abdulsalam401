@@ -100,10 +100,6 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 
 
-
-
-![Language chart](./assets/lang_chart.svg)
-
 ---
 
 ## 🐍 Contribution Snake
