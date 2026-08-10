@@ -100,29 +100,9 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 
 
-<!-- Inserted by automation: aggregated language summary will be placed between these markers -->
-<!--LANGUAGE_SUMMARY_START-->
 
-## Aggregated language usage (including private repos)
 
 ![Language chart](./assets/lang_chart.svg)
-
-| Language | Percent |
-|---|---:|
-| Python | 53.36% |
-| HTML | 26.77% |
-| JavaScript | 9.58% |
-| CSS | 7.60% |
-| TypeScript | 1.93% |
-| Shell | 0.31% |
-| PowerShell | 0.24% |
-| YARA | 0.10% |
-| C | 0.09% |
-| Dockerfile | 0.02% |
-
-_Total bytes counted: 4,760,934_
-
-<!--LANGUAGE_SUMMARY_END-->
 
 ---
 
