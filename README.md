@@ -62,8 +62,8 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 | Project | Description | Stack |
 |---|---|---|
 | [🛡️ Axiom](https://github.com/abdulsalam401/Axiom) | Advanced Android Security Assessment Framework | Security Testing |
-| [📡 Network Intrusion Detection System](https://github.com/abdulsalam401/NID-System) | ML-powered intrusion detection for suspicious traffic | Python, Scapy, ML |
-| [🔐 Quantum-Resilient Secure Communication](https://github.com/abdulsalam401/Quantum-Gem-FYP) | Hybrid secure communication using RSA + Kyber concepts | Django, Cryptography |
+| [🕵️ PII Scanner](https://github.com/abdulsalam401/pii-scanner3) | Detects and redacts sensitive personally identifiable information from text | Python, Security |
+| [🎯 Ethical Hacking 100 Projects Challenge](https://github.com/abdulsalam401/Ethical-Hacking-100-Projects-Challenge) | Practical cybersecurity project challenge covering offensive and defensive workflows | Python, Cybersecurity |
 | [🤖 Athena Shield](https://github.com/abdulsalam401/Athena-Shield) | Intelligent bot detection with ML + honeypot ideas | Python, ML, Security |
 | [🔒 Cryptic](https://github.com/abdulsalam401/Cryptic-Secure-Communication) | AES-based secure communication platform | Python, Crypto |
 | [🔑 Secure Password Manager](https://github.com/abdulsalam401/Password-Manager-Chrome-Extension) | Encryption-based password manager concept | AES, Browser Security |
