@@ -2,17 +2,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const TOKEN = process.env.PERSONAL_TOKEN || process.env.PAT_1;
-if (!TOKEN) {
-  console.error('❌ PERSONAL_TOKEN or PAT_1 is not set. Add it to repository secrets as PERSONAL_TOKEN or PAT_1.');
-  process.exit(1);
-}
+const TOKEN = process.env.PERSONAL_TOKEN || process.env.PAT_1 || process.env.GITHUB_TOKEN;
+const OWNER = process.env.GITHUB_REPOSITORY_OWNER || 'abdulsalam401';
 
 const headers = {
-  Authorization: `token ${TOKEN}`,
   'User-Agent': 'github-actions-language-aggregator',
   Accept: 'application/vnd.github+json'
 };
+if (TOKEN) {
+  headers.Authorization = `token ${TOKEN}`;
+}
 
 async function fetchJson(url) {
   const res = await fetch(url, { headers });
@@ -28,7 +27,9 @@ async function listAllRepos() {
   let page = 1;
   let all = [];
   while (true) {
-    const url = `https://api.github.com/user/repos?per_page=${perPage}&page=${page}&type=owner&sort=updated`;
+    const url = TOKEN
+      ? `https://api.github.com/user/repos?per_page=${perPage}&page=${page}&type=owner&sort=updated`
+      : `https://api.github.com/users/${OWNER}/repos?per_page=${perPage}&page=${page}&type=owner&sort=updated`;
     const items = await fetchJson(url);
     if (!Array.isArray(items) || items.length === 0) break;
     all.push(...items);
@@ -66,8 +67,9 @@ function colorForLanguage(lang, idx) {
 }
 
 function buildSVG(totals, topN = 8) {
-  const entries = Array.from(totals.entries()).sort((a,b) => b[1] - a[1]).slice(0, topN);
-  const totalBytes = entries.reduce((s,[,b]) => s+b, 0) || 1;
+  const allEntries = Array.from(totals.entries()).sort((a,b) => b[1] - a[1]);
+  const entries = allEntries.slice(0, topN);
+  const totalBytes = allEntries.reduce((s,[,b]) => s+b, 0) || 1;
   const width = 760;
   const rowHeight = 34;
   const padding = 14;
@@ -111,7 +113,10 @@ function buildSVG(totals, topN = 8) {
 function buildMarkdownSection(totals) {
   const entries = Array.from(totals.entries()).sort((a,b) => b[1] - a[1]);
   const totalBytes = entries.reduce((s,[,b]) => s+b, 0) || 1;
-  let md = '\n## Aggregated language usage (including private repos)\n\n';
+  let md = '\n## Aggregated language usage\n\n';
+  md += TOKEN
+    ? '_Source: includes public and private repositories visible to the configured token._\n\n'
+    : '_Source: public repositories only (no personal access token configured)._\n\n';
   md += `![Language chart](./assets/lang_chart.svg)\n\n`;
   md += '| Language | Percent |\n';
   md += '|---|---:|\n';
@@ -149,7 +154,7 @@ function replaceSectionInReadme(readmePath, newSection) {
 
 (async () => {
   try {
-    console.log('Listing repositories for authenticated user...');
+    console.log(TOKEN ? 'Listing repositories for authenticated user...' : `Listing public repositories for ${OWNER}...`);
     const repos = await listAllRepos();
     console.log(`Found ${repos.length} repositories (owner).`);
 
