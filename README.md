@@ -93,8 +93,7 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=radical&cache_seconds=1800" />
-  <img height="170" src="https://streak-stats.demolab.com?user=abdulsalam401&theme=radical&cache_seconds=1800" />
+  <img src="./assets/status_card.svg" alt="Abdul Salam GitHub status card" />
 </div>
 
 
