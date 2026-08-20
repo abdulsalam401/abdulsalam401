@@ -112,7 +112,7 @@ function buildMarkdownSection(totals) {
   const entries = Array.from(totals.entries()).sort((a,b) => b[1] - a[1]);
   const totalBytes = entries.reduce((s,[,b]) => s+b, 0) || 1;
   let md = '\n## Aggregated language usage (including private repos)\n\n';
-  md += `![Language chart](./assets/lang_chart.svg)\n\n`;
+  md += `![Language chart](https://raw.githubusercontent.com/abdulsalam401/abdulsalam401/main/assets/lang_chart.svg)\n\n`;
   md += '| Language | Percent |\n';
   md += '|---|---:|\n';
   for (const [lang, bytes] of entries.slice(0, 10)) {

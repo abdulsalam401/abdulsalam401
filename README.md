@@ -93,7 +93,7 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="./assets/status_card.svg" alt="Abdul Salam GitHub status card" />
+  <img src="https://raw.githubusercontent.com/abdulsalam401/abdulsalam401/main/assets/status_card.svg" alt="Abdul Salam GitHub status card" />
 </div>
 
 
@@ -134,7 +134,7 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 ## Aggregated language usage (including private repos)
 
-![Language chart](./assets/lang_chart.svg)
+![Language chart](https://raw.githubusercontent.com/abdulsalam401/abdulsalam401/main/assets/lang_chart.svg)
 
 | Language | Percent |
 |---|---:|
