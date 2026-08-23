@@ -3,6 +3,9 @@
 </p>
 
 <h1 align="center">Hi, I'm Abdul Salam 👋</h1>
+<p align="center">
+  <img src="./assets/ChatGPT%20Image%20Aug%2023%2C%202026%2C%2011_10_03%20PM.png" alt="S4LAM personal logo" width="420"/>
+</p>
 <p align="center"><b>Cybersecurity Student • Ethical Hacking • Penetration Testing • Secure Development</b></p>
 
 <p align="center">
