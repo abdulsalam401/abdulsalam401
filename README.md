@@ -139,17 +139,17 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 | Language | Percent |
 |---|---:|
-| Python | 48.53% |
-| HTML | 24.08% |
-| JavaScript | 13.80% |
-| CSS | 7.09% |
-| TypeScript | 5.59% |
+| Python | 48.92% |
+| HTML | 24.14% |
+| JavaScript | 13.57% |
+| CSS | 6.97% |
+| TypeScript | 5.50% |
 | Shell | 0.39% |
 | PowerShell | 0.34% |
 | YARA | 0.08% |
 | C | 0.07% |
 | Dockerfile | 0.01% |
 
-_Total bytes counted: 5,811,251_
+_Total bytes counted: 5,908,275_
 
 <!--LANGUAGE_SUMMARY_END-->
