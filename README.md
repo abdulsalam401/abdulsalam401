@@ -150,6 +150,6 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 | C | 0.07% |
 | Dockerfile | 0.01% |
 
-_Total bytes counted: 5,910,963_
+_Total bytes counted: 5,910,944_
 
 <!--LANGUAGE_SUMMARY_END-->
