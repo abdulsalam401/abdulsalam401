@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Hi, I'm Abdul Salam 👋</h1>
-<p align="center"><b>Cybersecurity Student • Ethical Hacking • Penetration Testing • Secure Development</b></p>
+<p align="center"><b>Cybersecurity Researcher • Ethical Hacking • Penetration Testing • Secure Development</b></p>
 
 <p align="center">
 I build practical cybersecurity tools and secure systems, with a strong focus on cryptography, network defense, and real-world security testing.
@@ -28,7 +28,7 @@ I build practical cybersecurity tools and secure systems, with a strong focus on
 
 ## 🚀 About Me
 
-- 🎓 BS Computer Science student (Shaheed Benazir Bhutto University)
+- 🎓 BS Computer Science graduate (Shaheed Benazir Bhutto University)
 - 🔐 Focused on cybersecurity, ethical hacking, and secure software design
 - 🧪 Building projects in NIDS, bot detection, and post-quantum secure communication
 - 🛡 Active learner on TryHackMe and Hack The Box
