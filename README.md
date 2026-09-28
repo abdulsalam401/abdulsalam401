@@ -165,8 +165,8 @@ My work sits directly between research and the terminal:
 ## 📊 GitHub Analytics & Streak
 
 <div align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=abdulsalam401&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=radical&cache_seconds=1800" alt="Abdul Salam's GitHub Stats"/>
-  <img height="175" src="https://streak-stats.demolab.com?user=abdulsalam401&theme=radical&cache_seconds=1800" alt="Abdul Salam's GitHub Streak"/>
+  <img height="175" src="https://github-stats-alpha.vercel.app/api?username=abdulsalam401&show_icons=true&include_all_commits=true&count_private=true&theme=radical" alt="Abdul Salam's GitHub Stats"/>
+  <img height="175" src="https://streak-stats.demolab.com?user=abdulsalam401&theme=radical&timezone=Asia%2FKarachi" alt="Abdul Salam's GitHub Streak"/>
 </div>
 
 ---
