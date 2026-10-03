@@ -204,17 +204,17 @@ My work sits directly between research and the terminal:
 
 | Language | Percent |
 |---|---:|
-| Python | 49.10% |
-| HTML | 24.18% |
-| JavaScript | 13.43% |
-| CSS | 6.91% |
-| TypeScript | 5.49% |
+| Python | 48.78% |
+| HTML | 24.28% |
+| JavaScript | 13.32% |
+| CSS | 6.85% |
+| TypeScript | 5.87% |
 | Shell | 0.38% |
 | PowerShell | 0.33% |
 | YARA | 0.08% |
 | C | 0.07% |
-| Dockerfile | 0.01% |
+| Dockerfile | 0.02% |
 
-_Total bytes counted: 5,964,962_
+_Total bytes counted: 6,024,127_
 
 <!--LANGUAGE_SUMMARY_END-->
